@@ -1,0 +1,99 @@
+
+@font-face {
+    font-family: 'millionaire';
+    src: url(Millionaire-Script.woff);
+
+    font-family: 'intl';
+    src: url(Edition-International70Unlicensed.otf);
+}
+
+body{
+    background: rgb(227, 162, 128);
+}
+main{
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
+    justify-items: center;
+    padding: 1em;
+}
+
+
+.tree-data{
+    /* background: green; */
+    width: 40px;
+    height: 30px;
+    border-radius: 0 50px;
+    transform: rotate(0deg);
+    margin: 0.5em;
+    border: 1px solid black;
+    box-shadow: inset 0 0 5px black;
+
+}
+
+.linden{
+    background-color: blue;
+}
+.maple{
+    background-color: red; 
+}
+.honey{
+    background-color: yellow; 
+}
+
+.oak{
+    background-color: green; 
+}
+.planet{
+    background-color: blueviolet;
+}
+
+.square{
+    width: 30vw;
+    /* height: 40vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.grid-area{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow:0 0 5px black;
+}
+
+.grid-area{
+    border: 1px solid black;
+}
+.grid-area:nth-child(1){
+    background: rgb(248, 182, 182); 
+}
+.grid-area:nth-child(2){
+    background: rgb(251, 251, 168); 
+}
+.grid-area:nth-child(3){
+    background: rgb(176, 176, 254);  
+}
+.grid-area:nth-child(4){
+    background: rgb(142, 200, 142);  
+}
+.grid-area:nth-child(5){
+    background: rgb(201, 173, 243);
+}
+
+h1{
+  font-size: 20px;
+  padding: 1em;
+  text-align: center;
+  font-family:'intl';
+  
+
+}
+#title{
+    font-family: 'millionaire';
+    font-size: 2em;
+    color: rgb(159, 12, 12);
+}
